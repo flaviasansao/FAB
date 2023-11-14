@@ -1,0 +1,231 @@
+/* NavBar */
+
+  .topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .topnav a.active {
+    background-color: #0d6637;
+    color: #faed25;
+    border-radius: 50%;
+  }
+
+
+/* footer */
+.footcontainer {
+    margin: 0;
+
+}
+
+.footcontainer p {
+    margin: 20px;
+}
+
+/* about page */
+.aboutcontainer1 {
+    display: flex;
+    margin: 25px;
+    width: 100%;
+    gap: 2%;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.aboutcontainer img{
+    
+    width: 450px;
+    border: 5px solid rgb(43, 190, 206);
+    border-radius: 50px;
+  }
+
+/* our work */
+.container {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    gap: 2%;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.panel {
+    height: 500px;
+    width: 500px;
+    border: 5px solid rgb(43, 190, 206);
+    border-radius: 50px;
+    padding: 15px;
+    background-repeat: no-repeat;
+}
+
+.panel h3 {
+    background-color: rgb(43, 190, 206);
+    display: inline-flex;
+    margin-bottom: 0;
+    flex-direction: column;
+    border-radius: 5px;
+    font-size: 1.4rem;
+}
+
+.panel h4 {
+    background-color: rgb(43, 190, 206);
+    margin-bottom: 0;
+    flex-direction: column;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    text-transform: lowercase;
+}
+
+.panel ul {
+    background-color: rgb(43, 190, 206);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.sech4 {
+    opacity: 0;
+}
+
+.sech4:Hover {
+      opacity: 1;
+ }
+
+/* bingo */
+.bingo {
+    box-sizing: border-box
+    margin: 0
+}
+.mySlides {display: none}
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .container {
+        display: block;
+        
+    }
+    .panel {
+    
+        height: 300px;
+        width: 500px;
+        padding: 15px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .aboutcontainer1 {
+        display: block;
+    }
+
+    
+    .aboutcontainer {
+    
+        height: 300px;
+        width: 500px;
+        border-radius: 50px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+
+
+
+}
